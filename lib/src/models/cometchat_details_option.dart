@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../cometchat_uikit_shared.dart';
+import '../../../kaliro_cometchat_uikit_shared.dart';
 
 ///[CometChatDetailsOption] is a model class which contains information about options available for every [CometChatDetailsTemplate]
 ///

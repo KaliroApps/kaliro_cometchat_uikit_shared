@@ -1,4 +1,4 @@
-import '../../../../cometchat_uikit_shared.dart';
+import '../../../../kaliro_cometchat_uikit_shared.dart';
 
 /// Represents a dropdown model class , used to draw dropdown .
 class DropdownElement extends BaseInputElement<String> {

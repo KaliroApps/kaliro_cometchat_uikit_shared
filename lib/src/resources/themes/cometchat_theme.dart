@@ -1,5 +1,5 @@
-import 'package:cometchat_uikit_shared/src/resources/themes/palette.dart';
-import 'package:cometchat_uikit_shared/src/resources/themes/typography.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/resources/themes/palette.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/resources/themes/typography.dart';
 
 /// Themes class for defining palette and typography
 ///

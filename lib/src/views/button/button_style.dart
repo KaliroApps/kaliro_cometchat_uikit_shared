@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
 
 ///[ButtonStyle] is a model class for button widget. It contains the styles for the button widget.
 ///

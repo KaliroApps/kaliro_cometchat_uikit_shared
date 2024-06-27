@@ -3,10 +3,10 @@
 
 import 'dart:collection';
 
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/date_time.dart';
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/location.dart';
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/location_database.dart';
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/tzdata/zicfile.dart'
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/date_time.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/location.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/location_database.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/tzdata/zicfile.dart'
     as tzfile;
 
 const commonLocations = [

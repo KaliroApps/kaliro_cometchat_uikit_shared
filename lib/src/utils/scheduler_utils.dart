@@ -2,11 +2,11 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
 import 'package:intl/intl.dart';
 
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/date_time.dart';
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/env.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/date_time.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/env.dart';
 
 class SchedulerUtils {
   static String getTimeZoneIdentifiers(String zone) {

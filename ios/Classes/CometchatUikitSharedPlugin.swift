@@ -44,7 +44,7 @@ public class CometchatUikitSharedPlugin: NSObject, FlutterPlugin , CLLocationMan
     
     
     public static func register(with registrar: FlutterPluginRegistrar) {
-        let channel = FlutterMethodChannel(name: "cometchat_uikit_shared", binaryMessenger: registrar.messenger())
+        let channel = FlutterMethodChannel(name: "kaliro_cometchat_uikit_shared", binaryMessenger: registrar.messenger())
         let viewController = UIApplication.shared.delegate?.window?!.rootViewController
         let instance = CometchatUikitSharedPlugin(viewController: viewController)
         registrar.addMethodCallDelegate(instance, channel: channel)

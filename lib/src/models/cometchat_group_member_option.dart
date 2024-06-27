@@ -1,4 +1,4 @@
-import '../../../cometchat_uikit_shared.dart';
+import '../../../kaliro_cometchat_uikit_shared.dart';
 
 ///[CometChatGroupMemberOption] is a model class which contains information about options available to execute for every [GroupMember]
 ///

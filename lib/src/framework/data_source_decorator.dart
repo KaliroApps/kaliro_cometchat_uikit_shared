@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../cometchat_uikit_shared.dart';
+import '../../../kaliro_cometchat_uikit_shared.dart';
 
 ///[DataSourceDecorator] should be extended when creating any extension
 abstract class DataSourceDecorator implements DataSource {

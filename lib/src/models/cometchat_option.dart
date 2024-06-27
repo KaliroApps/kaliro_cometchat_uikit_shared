@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
 
 ///[CometChatOption] is a model class which is used to execute any action on a [CometChatListItem]
 ///

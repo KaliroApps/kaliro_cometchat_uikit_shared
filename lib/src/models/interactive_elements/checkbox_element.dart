@@ -1,4 +1,4 @@
-import '../../../../cometchat_uikit_shared.dart';
+import '../../../../kaliro_cometchat_uikit_shared.dart';
 
 /// Represents a checkbox model class , used to draw checkbox .
 class CheckBoxElement extends BaseInputElement<List<String>> {

@@ -1,4 +1,4 @@
-import '../../../cometchat_uikit_shared.dart';
+import '../../../kaliro_cometchat_uikit_shared.dart';
 
 /// Represents an action for URL navigation within a chat application.
 ///

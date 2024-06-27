@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.cometchat.cometchat_uikit_shared">
+    package="com.cometchat.kaliro_cometchat_uikit_shared">
 
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -40,8 +40,8 @@
 
     <application android:requestLegacyExternalStorage="true">
         <provider xmlns:tools="http://schemas.android.com/tools"
-            android:name="com.cometchat.cometchat_uikit_shared.FileProvider"
-            android:authorities="${applicationId}.fileProvider.com.cometchat.cometchat_uikit_shared"
+            android:name="com.cometchat.kaliro_cometchat_uikit_shared.FileProvider"
+            android:authorities="${applicationId}.fileProvider.com.cometchat.kaliro_cometchat_uikit_shared"
             android:exported="false"
             android:grantUriPermissions="true"
             tools:replace="android:authorities">

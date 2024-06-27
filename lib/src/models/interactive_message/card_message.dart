@@ -1,4 +1,4 @@
-import '../../../cometchat_uikit_shared.dart';
+import '../../../kaliro_cometchat_uikit_shared.dart';
 
 /// Represents a message with a card view that contains interactive elements.
 class CardMessage extends InteractiveMessage {

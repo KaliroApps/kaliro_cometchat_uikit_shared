@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
-import 'package:cometchat_uikit_shared/src/utils/sdk_methods.dart';
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/data/latest.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/sdk_methods.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/data/latest.dart';
 import 'package:flutter/foundation.dart';
 
 class CometChatUIKit {

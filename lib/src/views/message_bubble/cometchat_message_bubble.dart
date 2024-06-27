@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../cometchat_uikit_shared.dart';
+import '../../../../kaliro_cometchat_uikit_shared.dart';
 
 ///[CometChatMessageBubble] is a widget that provides the skeleton structure for any message bubble constructed from a [CometChatMessageTemplate] which doesnt have a [bubbleView]
 ///it binds together the [leadingView], [headerView], [contentView], [footerView], [bottomView], [threadView] declared in the [CometChatMessageTemplate] to collectively form a message bubble

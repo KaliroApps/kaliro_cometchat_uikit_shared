@@ -1,9 +1,9 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint cometchat_uikit_shared.podspec` to validate before publishing.
+# Run `pod lib lint kaliro_cometchat_uikit_shared.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'cometchat_uikit_shared'
+  s.name             = 'kaliro_cometchat_uikit_shared'
   s.version          = '4.4.2'
   s.summary          = 'This package contains shared resources for CometChat Chat and Calling UIKits'
   s.description      = <<-DESC

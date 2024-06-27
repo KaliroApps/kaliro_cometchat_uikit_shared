@@ -1,4 +1,4 @@
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
 
 ///Events can be triggered by Group Module
 ///e.g. Clicking on a particular group. All public-facing components in each module will trigger events.

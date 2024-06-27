@@ -1,4 +1,4 @@
-package com.cometchat.cometchat_uikit_shared
+package com.cometchat.kaliro_cometchat_uikit_shared
 
 import android.annotation.SuppressLint
 import android.os.Handler
@@ -27,7 +27,7 @@ object AudioRecorderEventHandler: EventChannel.StreamHandler {
                     if (audioRecorder?.audioRecorder!=null){
                         events?.success(audioRecorder?.audioRecorder!!.maxAmplitude.toDouble()/32767.0)
                     }
-                    Log.e("onAttachedToEngine","EventChannel cometchat_uikit_shared_audio_intensity event is emitted")
+                    Log.e("onAttachedToEngine","EventChannel kaliro_cometchat_uikit_shared_audio_intensity event is emitted")
                 }
             }
         }, 0, 500)
@@ -37,7 +37,7 @@ object AudioRecorderEventHandler: EventChannel.StreamHandler {
         // Clean up any resources (if needed)
         timer?.cancel()
         timer = null
-        Log.e("onAttachedToEngine","EventChannel cometchat_uikit_shared_audio_intensity event is cancelled")
+        Log.e("onAttachedToEngine","EventChannel kaliro_cometchat_uikit_shared_audio_intensity event is cancelled")
     }
 
 

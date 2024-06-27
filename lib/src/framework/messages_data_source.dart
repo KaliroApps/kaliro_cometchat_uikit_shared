@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart' as cc;
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart' as cc;
 
 ///[MessagesDataSource] is a Utility class that provides
 ///default templates to construct message bubbles and also provides

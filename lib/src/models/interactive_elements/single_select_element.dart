@@ -1,4 +1,4 @@
-import '../../../../cometchat_uikit_shared.dart';
+import '../../../../kaliro_cometchat_uikit_shared.dart';
 
 /// Represents a single select element model class used to create a single select input element.
 ///

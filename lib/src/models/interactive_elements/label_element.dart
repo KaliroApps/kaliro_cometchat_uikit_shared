@@ -1,4 +1,4 @@
-import '../../../../cometchat_uikit_shared.dart';
+import '../../../../kaliro_cometchat_uikit_shared.dart';
 
 /// Represents a label model class , used to draw label .
 class LabelElement extends ElementEntity {

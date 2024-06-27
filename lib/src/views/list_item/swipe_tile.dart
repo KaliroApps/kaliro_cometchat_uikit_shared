@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
 
 ///[SwipeTile] is stacked widget which can take a child widget as input
 ///upon pressing that child widget down and sliding it to the left menu items are revealed

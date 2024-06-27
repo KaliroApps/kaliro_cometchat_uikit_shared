@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
 
-import '../../cometchat_uikit_shared.dart';
+import '../../kaliro_cometchat_uikit_shared.dart';
 
 enum FileType { image, video, audio, any, custom }
 

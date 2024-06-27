@@ -8,8 +8,8 @@ library timezone.src.tzdb;
 import 'dart:collection';
 import 'dart:convert';
 
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/location.dart';
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/location_database.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/location.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/location_database.dart';
 import 'package:flutter/foundation.dart';
 
 /// Serialize TimeZone Database

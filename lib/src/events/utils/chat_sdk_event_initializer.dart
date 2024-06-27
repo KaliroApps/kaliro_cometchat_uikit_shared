@@ -1,4 +1,4 @@
-import '../../../cometchat_uikit_shared.dart';
+import '../../../kaliro_cometchat_uikit_shared.dart';
 
 class ChatSDKEventInitializer with MessageListener {
   //Do not use this id, its reserved for cometchat own structure

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../cometchat_uikit_shared.dart';
+import '../../../kaliro_cometchat_uikit_shared.dart';
 
 ///[CometChatDetailsTemplate] is the section of options displayed in [CometChatDetails]
 ///

@@ -1,4 +1,4 @@
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
 
 ///[AdditionalConfigurations] is a class that can be used to add additional configurations to the UI Kit
 /// ```dart

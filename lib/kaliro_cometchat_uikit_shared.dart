@@ -1,10 +1,10 @@
-/// The `cometchat_uikit_shared` library.
+/// The `kaliro_cometchat_uikit_shared` library.
 ///
 /// This library provides shared utilities for the CometChat UIKit. It consolidates
 /// various resources, constants, events, utilities, and views required for
 /// CometChat to function.
 
-library cometchat_uikit_shared;
+library kaliro_cometchat_uikit_shared;
 
 export 'package:cometchat_sdk/cometchat_sdk.dart';
 

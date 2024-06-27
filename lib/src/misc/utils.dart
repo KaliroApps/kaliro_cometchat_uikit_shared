@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cometchat_uikit_shared/l10n/translations.dart';
+import 'package:kaliro_cometchat_uikit_shared/l10n/translations.dart';
 
 class Utils {
   static const internetNotAvailable = "ERROR_INTERNET_UNAVAILABLE";

@@ -1,8 +1,8 @@
 // This is a generated file. Do not edit.
 import 'dart:typed_data';
 
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/env.dart';
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/exceptions.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/env.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/exceptions.dart';
 
 /// Initialize Time Zone database from latest_all.
 ///

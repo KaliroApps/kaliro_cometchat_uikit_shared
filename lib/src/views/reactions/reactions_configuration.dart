@@ -1,4 +1,4 @@
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
 
 ///[ReactionsConfiguration] is a class which is used to set the configuration for the reactions
 ///It takes [theme], [onReactionTap], [onReactionLongPress], [reactionsStyle] as a parameter

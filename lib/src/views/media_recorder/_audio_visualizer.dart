@@ -20,7 +20,7 @@ class AudioVisualizerState extends State<AudioVisualizer> {
   late List<Widget> audioUnits = [];
 
   final EventChannel _eventChannel =
-      const EventChannel("cometchat_uikit_shared_audio_intensity");
+      const EventChannel("kaliro_cometchat_uikit_shared_audio_intensity");
 
   StreamSubscription<dynamic>? _streamSubscription;
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart' as cc;
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart' as cc;
 
 ///[ConversationUtils] is an Utility class that helps to
 ///the last message for any conversation and also

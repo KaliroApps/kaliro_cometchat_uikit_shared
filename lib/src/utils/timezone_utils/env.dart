@@ -2,9 +2,9 @@
 // file for details. All rights reserved. Use of this source code is governed
 // by a BSD-style license that can be found in the LICENSE file.
 
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/location.dart';
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/location_database.dart';
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/tzdb.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/location.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/location_database.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/tzdb.dart';
 
 /// File name of the Time Zone default database.
 const String tzDataDefaultFilename = 'latest.tzf';

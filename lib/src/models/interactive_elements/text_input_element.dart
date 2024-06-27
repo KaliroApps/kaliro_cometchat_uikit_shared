@@ -1,4 +1,4 @@
-import '../../../../cometchat_uikit_shared.dart';
+import '../../../../kaliro_cometchat_uikit_shared.dart';
 
 /// Represents a text input model class , used to draw text input element .
 class TextInputElement extends BaseInputElement<String> {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../cometchat_uikit_shared.dart';
+import '../../../../kaliro_cometchat_uikit_shared.dart';
 
 ///[MessageBubbleStyle] is a data class that has styling-related properties
 ///to customize the appearance of [CometChatMessageBubble]

@@ -1,9 +1,9 @@
 import 'dart:core';
 
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart' as cc;
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart' as cc;
 
 class CometChatDateTimeFormField extends StatefulWidget {
   const CometChatDateTimeFormField(

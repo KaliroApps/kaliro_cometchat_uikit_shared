@@ -5,8 +5,8 @@
 /// Locations database
 library timezone.src.location_database;
 
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/exceptions.dart';
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/location.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/exceptions.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/location.dart';
 
 /// LocationDatabase provides interface to find [Location]s by their name.
 ///

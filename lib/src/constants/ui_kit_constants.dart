@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
 
 ///[UIConstants] contains properties essential and limited to setting up the ui kit
 
 class UIConstants {
-  static const MethodChannel channel = MethodChannel('cometchat_uikit_shared');
-  static const String packageName = "cometchat_uikit_shared";
+  static const MethodChannel channel = MethodChannel('kaliro_cometchat_uikit_shared');
+  static const String packageName = "kaliro_cometchat_uikit_shared";
 }
 
 ///[MessageCategoryConstants] is a utility class that stores String constants of categories of messages

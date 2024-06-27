@@ -1,4 +1,4 @@
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
 
 ///An abstract class which holds the logic for searching in different lists
 abstract class CometChatSearchListController<T1, T2>

@@ -1,4 +1,4 @@
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
 
 ///[ChatAlignment] is an enum that defines the alignment of the messages in the message list
 enum ChatAlignment { leftAligned, standard }

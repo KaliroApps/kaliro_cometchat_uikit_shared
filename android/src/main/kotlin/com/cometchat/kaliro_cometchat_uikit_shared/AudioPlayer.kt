@@ -1,4 +1,4 @@
-package com.cometchat.cometchat_uikit_shared
+package com.cometchat.kaliro_cometchat_uikit_shared
 
 import android.content.Context
 import android.content.res.AssetManager

@@ -1,4 +1,4 @@
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
 
 ///An mixin to hold common  logic for selecting list item
 mixin CometChatSelectable<T1, T2> on CometChatListController<T1, T2> {

@@ -21,7 +21,7 @@ public class AudioRecorder: NSObject, AVAudioRecorderDelegate, AVAudioPlayerDele
     
     
     
-    private let eventChannelName = "cometchat_uikit_shared_audio_intensity"
+    private let eventChannelName = "kaliro_cometchat_uikit_shared_audio_intensity"
     
     var player: AVAudioPlayer?
     

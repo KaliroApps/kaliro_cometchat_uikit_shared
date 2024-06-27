@@ -1,4 +1,4 @@
-package com.cometchat.cometchat_uikit_shared
+package com.cometchat.kaliro_cometchat_uikit_shared
 
 import android.Manifest
 import android.Manifest.permission.READ_EXTERNAL_STORAGE

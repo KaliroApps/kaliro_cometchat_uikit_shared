@@ -1,4 +1,4 @@
-import '../../../cometchat_uikit_shared.dart';
+import '../../../kaliro_cometchat_uikit_shared.dart';
 
 /// Represents a message that includes a form with interactive elements.
 class FormMessage extends InteractiveMessage {

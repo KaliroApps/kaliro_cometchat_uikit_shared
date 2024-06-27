@@ -1,4 +1,4 @@
-package com.cometchat.cometchat_uikit_shared
+package com.cometchat.kaliro_cometchat_uikit_shared
 
 
 import android.Manifest
@@ -67,8 +67,8 @@ class CometchatUikitSharedPlugin: FlutterPlugin, MethodCallHandler, ActivityAwar
 
     this.context = flutterPluginBinding.applicationContext
 
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "cometchat_uikit_shared")
-    EventChannel(flutterPluginBinding.binaryMessenger,"cometchat_uikit_shared_audio_intensity").setStreamHandler(AudioRecorderEventHandler)
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "kaliro_cometchat_uikit_shared")
+    EventChannel(flutterPluginBinding.binaryMessenger,"kaliro_cometchat_uikit_shared_audio_intensity").setStreamHandler(AudioRecorderEventHandler)
     channel.setMethodCallHandler(this)
     initAudio()
   }
@@ -218,7 +218,7 @@ class CometchatUikitSharedPlugin: FlutterPlugin, MethodCallHandler, ActivityAwar
 
 
   override fun onAttachedToActivity(binding: ActivityPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding?.binaryMessenger!!, "cometchat_uikit_shared")
+    channel = MethodChannel(flutterPluginBinding?.binaryMessenger!!, "kaliro_cometchat_uikit_shared")
     activity = binding.activity
     channel.setMethodCallHandler(this)
     binding.addRequestPermissionsResultListener(this)

@@ -1,6 +1,6 @@
 import 'dart:io' show Platform;
 
-import '../../../cometchat_uikit_shared.dart';
+import '../../../kaliro_cometchat_uikit_shared.dart';
 
 ///[SoundManager] is an utility component that provides an audio player
 class SoundManager {

@@ -1,4 +1,4 @@
-name: cometchat_uikit_shared
+name: kaliro_cometchat_uikit_shared
 description: Shared Components and Resources for CometChat's chat and calls UI Kits
 version: 4.4.2
 homepage: https://www.cometchat.com/
@@ -38,7 +38,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.cometchat.cometchat_uikit_shared
+        package: com.cometchat.kaliro_cometchat_uikit_shared
         pluginClass: CometchatUikitSharedPlugin
       ios:
         pluginClass: CometchatUikitSharedPlugin

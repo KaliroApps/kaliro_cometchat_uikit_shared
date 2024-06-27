@@ -1,4 +1,4 @@
-package com.cometchat.cometchat_uikit_shared
+package com.cometchat.kaliro_cometchat_uikit_shared
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -27,7 +27,7 @@ class OpenFile{
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
                 intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
                 val packageName: String = context.packageName
-                val uri: Uri = FileProvider.getUriForFile(context, "$packageName.fileProvider.com.cometchat.cometchat_uikit_shared", File(filePath))
+                val uri: Uri = FileProvider.getUriForFile(context, "$packageName.fileProvider.com.cometchat.kaliro_cometchat_uikit_shared", File(filePath))
                 intent.setDataAndType(uri, fileType)
             } else {
                 intent.setDataAndType(Uri.fromFile(File(filePath)), fileType)

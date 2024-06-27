@@ -2,8 +2,8 @@
 // file for details. All rights reserved. Use of this source code is governed
 // by a BSD-style license that can be found in the LICENSE file.
 
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/env.dart';
-import 'package:cometchat_uikit_shared/src/utils/timezone_utils/location.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/env.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/timezone_utils/location.dart';
 
 /// TimeZone aware DateTime
 class TZDateTime implements DateTime {

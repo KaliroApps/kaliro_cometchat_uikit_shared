@@ -3,7 +3,7 @@
 </p>
 
 # CometChat Flutter UIKit Shared Package
-The <a href="https://pub.dev/packages/cometchat_uikit_shared"><strong>CometChat UIKit Shared</strong></a> serves as a foundation for two robust UI Kits - <a href="https://pub.dev/packages/cometchat_chat_uikit"><strong>CometChat Chat UIKit</strong></a> and <a href="https://pub.dev/packages/cometchat_calls_uikit"><strong>CometChat Calls UIKit</strong></a>. The modular design of the resources and widgets provided by this package ensures efficient code reuse and consistent styling across your app.  <br/>
+The <a href="https://pub.dev/packages/kaliro_cometchat_uikit_shared"><strong>CometChat UIKit Shared</strong></a> serves as a foundation for two robust UI Kits - <a href="https://pub.dev/packages/cometchat_chat_uikit"><strong>CometChat Chat UIKit</strong></a> and <a href="https://pub.dev/packages/cometchat_calls_uikit"><strong>CometChat Calls UIKit</strong></a>. The modular design of the resources and widgets provided by this package ensures efficient code reuse and consistent styling across your app.  <br/>
 
 ### Prerequisites
 - Flutter >=3.10.5

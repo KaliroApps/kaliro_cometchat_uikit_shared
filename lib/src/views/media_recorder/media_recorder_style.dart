@@ -1,4 +1,4 @@
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
 import 'package:flutter/material.dart';
 
 ///[MediaRecorderStyle] is a model class for customizing the styles of [CometChatMediaRecorder] widget.

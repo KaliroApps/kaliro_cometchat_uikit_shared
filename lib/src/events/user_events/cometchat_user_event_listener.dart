@@ -1,4 +1,4 @@
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
 
 ///Events can be triggered by the user action for
 ///e.g. Clicking on a particular user item. All public-facing components in each module will trigger events.

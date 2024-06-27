@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
 
 /// [CometChatButtonElement] is a button widget used in [FormMessage].
 /// Use this widget along with [ButtonElementStyle] is used to modify the default style.

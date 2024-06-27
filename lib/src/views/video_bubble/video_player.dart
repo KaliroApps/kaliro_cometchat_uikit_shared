@@ -2,7 +2,7 @@ import 'package:chewie/chewie.dart';
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
-import '../../../../cometchat_uikit_shared.dart';
+import '../../../../kaliro_cometchat_uikit_shared.dart';
 
 ///Gives Full screen video player for [CometChatVideoBubble]
 class VideoPlayer extends StatefulWidget {

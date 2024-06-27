@@ -1,5 +1,5 @@
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
-import 'package:cometchat_uikit_shared/src/utils/action_element_utils.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/src/utils/action_element_utils.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';

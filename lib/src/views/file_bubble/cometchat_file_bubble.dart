@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:cometchat_uikit_shared/cometchat_uikit_shared.dart';
+import 'package:kaliro_cometchat_uikit_shared/kaliro_cometchat_uikit_shared.dart';
 
 ///[CometChatFileBubble] creates a widget that gives file bubble
 ///
@@ -112,7 +112,7 @@ class _CometChatFileBubbleState extends State<CometChatFileBubble> {
   openFile() async {
     if (isFileExists) {
       String filePath = '${BubbleUtils.fileDownloadPath}/$fileName';
-      MethodChannel channel = const MethodChannel('cometchat_uikit_shared');
+      MethodChannel channel = const MethodChannel('kaliro_cometchat_uikit_shared');
 
       try {
         debugPrint("Opening Path = $filePath");
