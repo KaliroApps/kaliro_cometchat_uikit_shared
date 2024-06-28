@@ -25,6 +25,7 @@ class CometChatListItem extends StatelessWidget {
     this.tailView,
     this.hideSeparator = true,
     this.avatarStyle = const AvatarStyle(),
+    this.customAvatar,
     this.statusIndicatorStyle = const StatusIndicatorStyle(),
     this.style = const ListItemStyle(),
     this.theme,
@@ -63,6 +64,8 @@ class CometChatListItem extends StatelessWidget {
 
   final AvatarStyle avatarStyle;
 
+  final Widget Function(String? user, String? name)? customAvatar;
+
   final StatusIndicatorStyle statusIndicatorStyle;
 
   ///[theme] can pass custom theme class or dark theme defaultDarkTheme object from CometChatTheme class, by default light theme
@@ -72,6 +75,10 @@ class CometChatListItem extends StatelessWidget {
   final String? id;
 
   Widget getAvatar(CometChatTheme theme) {
+    if(customAvatar != null) {
+      return customAvatar?.call(avatarURL, avatarName) ?? const SizedBox();
+    }
+
     return CometChatAvatar(
       image: avatarURL,
       name: avatarName,
