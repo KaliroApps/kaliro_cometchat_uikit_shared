@@ -15,30 +15,28 @@ class CometChatDeleteMessageBubble extends StatelessWidget {
   final DeletedBubbleStyle style;
   @override
   Widget build(BuildContext context) {
-    return DottedBorder(
-      radius: const Radius.circular(8),
-      color: style.borderColor ?? const Color(0xff141414).withOpacity(0.16),
-      strokeWidth: 1,
-      child: Container(
-        height: style.height ?? 36,
-        width: style.width ?? 164,
-        decoration: BoxDecoration(
-            border: style.border,
-            borderRadius: BorderRadius.circular(style.borderRadius ?? 0),
-            color: style.gradient == null
-                ? style.background ?? const Color(0xff3399FF).withOpacity(0)
-                : null,
-            gradient: style.gradient),
-        alignment: Alignment.center,
+    return Container(
+      // height: style.height ?? 20,
+      // width: style.width ?? 160,
+      decoration: BoxDecoration(
+          border: style.border,
+          borderRadius: BorderRadius.circular(style.borderRadius ?? 0),
+          color: style.gradient == null
+              ? style.background ?? const Color(0xff3399FF).withOpacity(0)
+              : null,
+          gradient: style.gradient),
+      alignment: Alignment.center,
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(12, 8, 12, 0),
         child: Text(
           Translations.of(context).messageIsDeleted,
           style: style.textStyle ??
               TextStyle(
-                  fontSize: 17,
+                  fontSize: 14,
                   fontWeight: FontWeight.w400,
                   color: const Color(0xff141414).withOpacity(0.4)),
         ),
-      ),
+      )
     );
   }
 }

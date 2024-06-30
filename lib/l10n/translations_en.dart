@@ -733,7 +733,7 @@ class TranslationsEn extends Translations {
   String get openWhiteboardSubtitle => 'Open whiteboard to draw together';
 
   @override
-  String get messageIsDeleted => 'Message is Deleted';
+  String get messageIsDeleted => 'Message deleted';
 
   @override
   String get file => 'File';

@@ -67,95 +67,113 @@ class CometChatMessageBubble extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
           gradient: style.gradient,
-          border: style.border,
+          // border: style.border,
           borderRadius: BorderRadius.circular(style.borderRadius ?? 0)),
       child: Padding(
         padding:
             style.contentPadding ?? const EdgeInsets.only(top: 10, bottom: 4),
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
+        child: Column(
+          crossAxisAlignment: alignment == BubbleAlignment.right ?
+            CrossAxisAlignment.end :
+            CrossAxisAlignment.start,
           children: [
-            if (leadingView != null) leadingView!,
-            Column(
-              crossAxisAlignment: alignment == BubbleAlignment.right
-                  ? CrossAxisAlignment.end
-                  : CrossAxisAlignment.start,
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.end,
               children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  children: [headerView ?? const SizedBox()],
-                ),
-                //-----bubble-----
+                if (leadingView != null) leadingView!,
                 Column(
-                  mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: alignment == BubbleAlignment.right
                       ? CrossAxisAlignment.end
                       : CrossAxisAlignment.start,
                   children: [
-                    IntrinsicWidth(
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        crossAxisAlignment: alignment == BubbleAlignment.right
-                            ? CrossAxisAlignment.end
-                            : CrossAxisAlignment.start,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.only(
-                              top: 3,
-                            ),
-                            child: Container(
-                              constraints: BoxConstraints(
-                                  maxWidth: style.width ??
-                                      MediaQuery.of(context).size.width *
-                                          (style.widthFlex ?? (65 / 100))),
-                              decoration: BoxDecoration(
-                                  color: style.background ??
-                                      const Color(0xffF8F8F8).withOpacity(0.92),
-                                  borderRadius: BorderRadius.all(
-                                      Radius.circular(style.borderRadius ?? 8)),
-                                  border: style.border,
-                                  gradient: style.gradient),
-                              child: ClipRRect(
-                                borderRadius: BorderRadius.all(
-                                    Radius.circular(style.borderRadius ?? 8)),
-                                child: Column(
-                                  mainAxisSize: MainAxisSize.min,
-                                  crossAxisAlignment:
-                                      alignment == BubbleAlignment.right
-                                          ? CrossAxisAlignment.end
-                                          : CrossAxisAlignment.start,
-                                  children: [
-                                    if (replyView != null) replyView!,
-                                    if (contentView != null) contentView!,
-                                    if (statusInfoView != null) statusInfoView!,
-                                    if (bottomView != null) bottomView!,
-                                  ],
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [headerView ?? const SizedBox()],
+                    ),
+                    //-----bubble-----
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: alignment == BubbleAlignment.right
+                          ? CrossAxisAlignment.end
+                          : CrossAxisAlignment.start,
+                      children: [
+                        IntrinsicWidth(
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.start,
+                            crossAxisAlignment: alignment == BubbleAlignment.right
+                                ? CrossAxisAlignment.end
+                                : CrossAxisAlignment.start,
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                  top: 3,
+                                ),
+                                child: Material(
+                                  color: Colors.transparent,
+                                  elevation: style.elevation ?? 0,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: style.borderRadiusGeometry ?? BorderRadius.all(Radius.circular(style.borderRadius ?? 16))
+                                  ),
+                                  child: Container(
+                                    constraints: BoxConstraints(
+                                        maxWidth: style.width ??
+                                            MediaQuery.of(context).size.width *
+                                                (style.widthFlex ?? (65 / 100))),
+                                    decoration: BoxDecoration(
+                                        color: style.background ??
+                                            const Color(0xffF8F8F8).withOpacity(0.92),
+                                        borderRadius: style.borderRadiusGeometry ?? BorderRadius.all(Radius.circular(style.borderRadius ?? 16)),
+                                        border: style.border,
+                                        gradient: style.gradient),
+                                    child: InkWell(
+                                      splashColor: Colors.transparent,
+                                      focusColor: Colors.transparent,
+                                      hoverColor: Colors.transparent,
+                                      highlightColor: Colors.transparent,
+                                      child: ClipRRect(
+                                        borderRadius: style.borderRadiusGeometry ?? BorderRadius.all(Radius.circular(style.borderRadius ?? 16)),
+                                        child: Column(
+                                          mainAxisSize: MainAxisSize.min,
+                                          crossAxisAlignment:
+                                              alignment == BubbleAlignment.right
+                                                  ? CrossAxisAlignment.end
+                                                  : CrossAxisAlignment.start,
+                                          children: [
+                                            if (replyView != null) replyView!,
+                                            if (contentView != null) contentView!,
+                                            if (statusInfoView != null) statusInfoView!,
+                                            if (bottomView != null) bottomView!,
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                  ),
                                 ),
                               ),
-                            ),
+                              if (footerView != null)
+                                Row(
+                                  mainAxisAlignment:
+                                      alignment == BubbleAlignment.right
+                                          ? MainAxisAlignment.end
+                                          : MainAxisAlignment.start,
+                                  children: [
+                                    footerView!,
+                                  ],
+                                ),
+                            ],
                           ),
-                          if (footerView != null)
-                            Row(
-                              mainAxisAlignment:
-                                  alignment == BubbleAlignment.right
-                                      ? MainAxisAlignment.end
-                                      : MainAxisAlignment.start,
-                              children: [
-                                footerView!,
-                              ],
-                            ),
-                        ],
-                      ),
-                    ),
-
-                    //-----thread replies-----
-                    if (threadView != null) threadView!,
+                        ),
+                      ],
+                    )
                   ],
-                )
+                ),
               ],
             ),
+
+            //-----thread replies-----
+            if (threadView != null) threadView!,
           ],
-        ),
+        )
       ),
     );
   }

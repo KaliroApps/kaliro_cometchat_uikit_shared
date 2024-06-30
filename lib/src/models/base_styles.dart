@@ -29,7 +29,9 @@ class BaseStyles {
       this.background,
       this.gradient,
       this.border,
-      this.borderRadius});
+      this.elevation,
+      this.borderRadius,
+      this.borderRadiusGeometry});
 
   ///[width] provides width to the widget
   final double? width;
@@ -48,4 +50,10 @@ class BaseStyles {
 
   ///[borderRadius] provides radius to the border around the widget
   final double? borderRadius;
+
+  ///[elevation] set bubble elevation
+  final double? elevation;
+
+  ///[borderRadiusGeometry] provides radius to the border around the widget
+  final BorderRadiusGeometry? borderRadiusGeometry;
 }

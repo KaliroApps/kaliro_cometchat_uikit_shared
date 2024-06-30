@@ -8,7 +8,14 @@ enum PaletteThemeModes { dark, light }
 class PaletteModel {
   final Color light;
   final Color dark;
-  const PaletteModel({required this.light, required this.dark});
+  final Gradient? lightGradient;
+  final Gradient? darkGradient;
+  const PaletteModel({
+    required this.light, 
+    required this.dark,
+    this.lightGradient,
+    this.darkGradient,
+  });
 }
 
 ///Model class for Themes
@@ -69,6 +76,12 @@ class Palette {
     return mode == PaletteThemeModes.dark
         ? backGroundColor.dark
         : backGroundColor.light;
+  }
+
+  Gradient getBackgroundGradient() {
+    return mode == PaletteThemeModes.dark
+        ? backGroundColor.darkGradient!
+        : backGroundColor.lightGradient!;
   }
 
   ///Return primary colour's light or dark theme colour according to mode.

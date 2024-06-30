@@ -173,7 +173,7 @@ class MessagesDataSource implements DataSource {
       style: DeletedBubbleStyle(
         textStyle: TextStyle(
             color: theme.palette.getAccent400(),
-            fontSize: theme.typography.body.fontSize,
+            fontSize: theme.typography.text1.fontSize,
             fontWeight: theme.typography.body.fontWeight),
         borderColor: theme.palette.getAccent200(),
       ),

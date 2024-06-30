@@ -60,7 +60,7 @@ class CometChatTextBubble extends StatelessWidget {
                 : null,
             gradient: style.gradient),
         child: Padding(
-          padding: const EdgeInsets.fromLTRB(12, 7, 12, 7),
+          padding: const EdgeInsets.fromLTRB(16, 12, 16, 12),
           child: RichText(
             text: TextSpan(
                 style: style.textStyle ??
