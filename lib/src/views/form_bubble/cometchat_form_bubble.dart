@@ -595,7 +595,7 @@ class _CometChatFormBubbleState extends State<CometChatFormBubble> {
               children: checkBox.options
                   .map(
                     (option) => CheckboxListTile(
-                      side: MaterialStateBorderSide.resolveWith(
+                      side: WidgetStateBorderSide.resolveWith(
                         (states) => BorderSide(
                             width: 1.0,
                             color: isValidating == true &&
