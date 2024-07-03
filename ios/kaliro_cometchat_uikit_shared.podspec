@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'kaliro_cometchat_uikit_shared'
-  s.version          = '4.4.2'
+  s.version          = '4.4.3'
   s.summary          = 'This package contains shared resources for CometChat Chat and Calling UIKits'
   s.description      = <<-DESC
 A new Flutter plugin project.
