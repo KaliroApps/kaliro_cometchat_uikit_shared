@@ -99,13 +99,13 @@ class ConversationUtils {
   static String getLastActionMessage(
       Conversation conversation, BuildContext context) {
     BaseMessage message = conversation.lastMessage!;
-    String subtitle;
+    String subtitle = '';
 
     if (message.type == MessageTypeConstants.groupActions) {
       cc.Action actionMessage = message as cc.Action;
-      subtitle = actionMessage.message;
+      subtitle = actionMessage.message as String;
     } else {
-      subtitle = message.type;
+      subtitle = message.type as String;
     }
 
     return subtitle;
